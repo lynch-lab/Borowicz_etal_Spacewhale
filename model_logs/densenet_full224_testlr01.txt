@@ -1,0 +1,195 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon May  6 15:14:05 EDT 2019
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 260.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 1130.0
+prec: 0.977444, recall: 0.187050
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1199.0
+Correctly Identified as Whales: 13.0
+Misidentified as Water: 19.0
+Misidentified as Whales: 191.0
+prec: 0.984401, recall: 0.862590
+epoch_2.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1202.0
+Correctly Identified as Whales: 13.0
+Misidentified as Water: 19.0
+Misidentified as Whales: 188.0
+prec: 0.984439, recall: 0.864748
+epoch_3.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1199.0
+Correctly Identified as Whales: 16.0
+Misidentified as Water: 16.0
+Misidentified as Whales: 191.0
+prec: 0.986831, recall: 0.862590
+epoch_4.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 762.0
+Correctly Identified as Whales: 20.0
+Misidentified as Water: 12.0
+Misidentified as Whales: 628.0
+prec: 0.984496, recall: 0.548201
+epoch_5.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1237.0
+Correctly Identified as Whales: 17.0
+Misidentified as Water: 15.0
+Misidentified as Whales: 153.0
+prec: 0.988019, recall: 0.889928
+epoch_6.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 773.0
+Correctly Identified as Whales: 20.0
+Misidentified as Water: 12.0
+Misidentified as Whales: 617.0
+prec: 0.984713, recall: 0.556115
+epoch_7.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 718.0
+Correctly Identified as Whales: 19.0
+Misidentified as Water: 13.0
+Misidentified as Whales: 672.0
+prec: 0.982216, recall: 0.516547
+epoch_8.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 955.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 435.0
+prec: 0.993757, recall: 0.687050
+epoch_9.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 718.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 672.0
+prec: 0.988981, recall: 0.516547
+epoch_10.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 559.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 831.0
+prec: 0.989381, recall: 0.402158
+epoch_11.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1198.0
+Correctly Identified as Whales: 19.0
+Misidentified as Water: 13.0
+Misidentified as Whales: 192.0
+prec: 0.989265, recall: 0.861871
+epoch_12.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 824.0
+Correctly Identified as Whales: 29.0
+Misidentified as Water: 3.0
+Misidentified as Whales: 566.0
+prec: 0.996372, recall: 0.592806
+epoch_13.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1088.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 302.0
+prec: 0.990893, recall: 0.782734
+epoch_14.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1196.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 194.0
+prec: 0.991708, recall: 0.860432
+epoch_15.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1197.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 193.0
+prec: 0.991715, recall: 0.861151
+epoch_16.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 755.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 635.0
+prec: 0.990814, recall: 0.543165
+epoch_17.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1187.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 203.0
+prec: 0.994971, recall: 0.853957
+epoch_18.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1150.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 240.0
+prec: 0.993092, recall: 0.827338
+epoch_19.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1195.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 195.0
+prec: 0.992525, recall: 0.859712
+epoch_20.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 653.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 737.0
+prec: 0.989394, recall: 0.469784
+epoch_21.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1104.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 286.0
+prec: 0.992806, recall: 0.794245
+epoch_22.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 801.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 589.0
+prec: 0.991337, recall: 0.576259
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+Correctly Identified as Water: 1015.0
+Correctly Identified as Whales: 28.0
+Misidentified as Water: 4.0
+Misidentified as Whales: 375.0
+prec: 0.996075, recall: 0.730216
+Mon May  6 15:34:35 EDT 2019
