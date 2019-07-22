@@ -1,0 +1,28 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon May 20 20:03:43 EDT 2019
+Mon May 20 20:03:46 EDT 2019
+Now testing Resnext lr=0.001
+Traceback (most recent call last):
+  File "test_script.py", line 54, in <module>
+    s = spacewhale(opt)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Mon May 20 20:04:00 EDT 2019
+Now testing Resnext lr=0.01
+Traceback (most recent call last):
+  File "test_script.py", line 54, in <module>
+    s = spacewhale(opt)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Mon May 20 20:04:02 EDT 2019
+Now testing Resnext lr=0.1
+Traceback (most recent call last):
+  File "test_script.py", line 54, in <module>
+    s = spacewhale(opt)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Mon May 20 20:04:03 EDT 2019
+Now testing Resnext lr=0.2
+Traceback (most recent call last):
+  File "test_script.py", line 54, in <module>
+    s = spacewhale(opt)
+TypeError: __init__() takes 1 positional argument but 2 were given
+Mon May 20 20:04:04 EDT 2019
+slurmstepd: error: *** JOB 5913 ON sn-nvda7 CANCELLED AT 2019-05-20T23:40:19 DUE TO TIME LIMIT ***

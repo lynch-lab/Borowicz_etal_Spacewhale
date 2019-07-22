@@ -1,0 +1,130 @@
+######################SPACEWHALE PROJECT#############################################################
+### This script runs SVM (C-SVC) and Ridge Regression models for Spacewhale
+### Authors: Hieu Le (and Alex Borowicz)
+### Date: July 2019
+### Data and code available at github.com/aborowicz/spacewhale
+### Usage examples:
+###
+### python baseline_train.py --train_dir ./data/train --test_dir ./data/test --model 'resnet-152' --param 0.8
+### Data must be separated into dirs labelled by class. E.g. ./data/train/whale and ./data/train/water
+#####################################################################################################
+### Library Imports
+
+from pathlib import Path
+#import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import svm, metrics, datasets
+from sklearn.linear_model import RidgeClassifier as ridge_reg
+from sklearn.utils import Bunch
+from sklearn.model_selection import GridSearchCV, train_test_split
+import skimage
+import skimage.feature
+from skimage.io import imread
+from skimage.transform import resize
+import argparse
+
+parse = argparse.ArgumentParser()
+parse.add_argument('--train_dir', )
+parse.add_argument('--test_dir')
+parse.add_argument('--model', type=str)
+parse.add_argument('--param', type=float) #Alpha for RidgeReg, C for C-SVC
+opt = parse.parse_args()
+
+
+def load_image_files(container_path, dimension=(32, 32)):
+    """
+    Load image files with categories as subfolder names 
+    which performs like scikit-learn sample dataset
+    
+    Parameters
+    ----------
+    container_path : string or unicode
+        Path to the main folder holding one subfolder per category
+    dimension : tuple
+        size to which image are adjusted to
+        
+    Returns
+    -------
+    Bunch
+    """
+    image_dir = Path(container_path)
+    folders = [directory for directory in image_dir.iterdir() if directory.is_dir()]
+    categories = [fo.name for fo in folders]
+
+    descr = "A image classification dataset"
+    images = []
+    flat_data = []
+    target = []
+    for i, direc in enumerate(folders):
+        for file in direc.iterdir():
+            img = skimage.io.imread(file)
+            img_resized = resize(img, dimension, anti_aliasing=True, mode='reflect')
+            #We extract image feature here, you can use different features from skimage.feature or even use them together by concatinate them into a single vector.
+            flat_data.append(skimage.feature.hog(img_resized).flatten())
+            #flat_data.append(skimage.feature.local_binary_pattern(img_resized, P=4, R=28).flatten())
+     #       images.append(img_resized)
+            target.append(i)
+    flat_data = np.array(flat_data)
+    target = np.array(target)
+    images = np.array(images)
+
+    return Bunch(data=flat_data,
+                 target=target,
+                 target_names=categories,
+                 DESCR=descr)
+
+#load dataset and extract hog feature descriptor for each image
+training_dataset = load_image_files(opt.train_dir)
+testing_dataset = load_image_files(opt.test_dir)
+X_train = training_dataset.data
+y_train = training_dataset.target
+X_test = testing_dataset.data
+y_test = testing_dataset.target
+
+#print(X_train.shape)
+#print(y_train.shape)
+#print(X_test.shape)
+if opt.model == "SVM":
+    #SVM classfier
+    classifier = svm.SVC(C=opt.param, class_weight='balanced')
+    print("Classifying with C-SVC!")
+else:
+    #Ridge Regression classifier
+    classifier = ridge_reg(alpha = opt.param, class_weight='balanced')
+    print("Classifying with Ridge Regression!")
+
+#Prediction on training set.
+classifier.fit(X_train,y_train)
+# Test the performance on the training set
+#y_pred = classifier.predict(X_train)
+# Test the performance on the test set
+y_pred = classifier.predict(X_test)
+print(y_test)
+print(y_pred)
+tp=fn=fp=tn = 0
+tp = tp + sum(y_pred[y_test==0] == 0)
+fn = fn + sum(y_pred[y_test==0] == 1)
+fp = fp + sum(y_pred[y_test==1] == 0)
+tn = tn + sum(y_pred[y_test==1] == 1)
+
+print("true pos",tp)
+print("false neg", fn)
+print("false pos", fp)
+print("true neg", tn)
+### Print out results
+print('Correctly Identified as Whales: '+ str(float(tp)))
+print('Correctly Identified as Water: '+ str(float(tn)))
+print('Misidentified as Whales: '+ str(float(fp)))
+print('Misidentified as Water: '+ str(float(fn)))
+prec = float(tn)/float(tn+fn)
+recall =  float(tn)/ float(tn+fp)
+f1 = 2*prec*recall/(prec+recall)
+print("prec: %f, recall: %f"%(prec,recall))
+print("F1 Score:", f1)
+
+y_pred
+#print("Classification report for classifier %s:\n%s\n"
+#      % (classifier, metrics.classification_report(y_train, y_pred)))
+print("Classification report for classifier %s:\n%s\n"
+      % (classifier, metrics.classification_report(y_test, y_pred)))
+

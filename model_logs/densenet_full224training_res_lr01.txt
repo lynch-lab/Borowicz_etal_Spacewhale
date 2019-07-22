@@ -1,0 +1,120 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+/gpfs/projects/LynchGroup/spacewhale
+Sun May  5 21:14:29 EDT 2019
+######################################################################################################
+WELCOME TO SPACEWHALE!
+######################################################################################################
+We will now train your model.. please be patient
+Using densenet Your trained model will be named densenet_full224_lr01
+------------------------------------------------------------------------------
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafcae97f0>
+Your dataset size is: 12545
+You have 2 classes in your dataset
+------------------------------------------------------------------------------
+Labels for the dataset are:
+water = 0
+whale = 1
+------------------------------------------------------------------------------
+Data loaded into gpu
+------------------------------------------------------------------------------
+Epoch 0/23
+----------
+/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torchvision-0.2.1-py3.7.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+train Loss: 1.0254 Acc: 0.5160 Err: 0.4840
+TP: 3317.0000  TN: 3156.0000  FP: 3126.0000  FN: 2946.0000
+Epoch 1/23
+----------
+train Loss: 0.7826 Acc: 0.5423 Err: 0.4577
+TP: 3875.0000  TN: 2928.0000  FP: 3307.0000  FN: 2435.0000
+Epoch 2/23
+----------
+train Loss: 0.6722 Acc: 0.5842 Err: 0.4158
+TP: 4842.0000  TN: 2487.0000  FP: 3805.0000  FN: 1411.0000
+Epoch 3/23
+----------
+train Loss: 0.6432 Acc: 0.6151 Err: 0.3849
+TP: 5376.0000  TN: 2341.0000  FP: 3868.0000  FN: 960.0000
+Epoch 4/23
+----------
+train Loss: 0.6300 Acc: 0.6396 Err: 0.3604
+TP: 5656.0000  TN: 2368.0000  FP: 3784.0000  FN: 737.0000
+Epoch 5/23
+----------
+train Loss: 0.6155 Acc: 0.6530 Err: 0.3470
+TP: 5280.0000  TN: 2912.0000  FP: 3414.0000  FN: 939.0000
+Epoch 6/23
+----------
+train Loss: 0.6027 Acc: 0.6691 Err: 0.3309
+TP: 5258.0000  TN: 3136.0000  FP: 3186.0000  FN: 965.0000
+Epoch 7/23
+----------
+train Loss: 0.5527 Acc: 0.7201 Err: 0.2799
+TP: 5731.0000  TN: 3303.0000  FP: 2881.0000  FN: 630.0000
+Epoch 8/23
+----------
+train Loss: 0.5333 Acc: 0.7341 Err: 0.2659
+TP: 5529.0000  TN: 3680.0000  FP: 2699.0000  FN: 637.0000
+Epoch 9/23
+----------
+train Loss: 0.5195 Acc: 0.7468 Err: 0.2532
+TP: 5670.0000  TN: 3699.0000  FP: 2567.0000  FN: 609.0000
+Epoch 10/23
+----------
+train Loss: 0.5095 Acc: 0.7533 Err: 0.2467
+TP: 5579.0000  TN: 3871.0000  FP: 2473.0000  FN: 622.0000
+Epoch 11/23
+----------
+train Loss: 0.4951 Acc: 0.7647 Err: 0.2353
+TP: 5650.0000  TN: 3943.0000  FP: 2343.0000  FN: 609.0000
+Epoch 12/23
+----------
+train Loss: 0.4864 Acc: 0.7747 Err: 0.2253
+TP: 5695.0000  TN: 4024.0000  FP: 2263.0000  FN: 563.0000
+Epoch 13/23
+----------
+train Loss: 0.4764 Acc: 0.7794 Err: 0.2206
+TP: 5810.0000  TN: 3968.0000  FP: 2216.0000  FN: 551.0000
+Epoch 14/23
+----------
+train Loss: 0.4675 Acc: 0.7866 Err: 0.2134
+TP: 5795.0000  TN: 4073.0000  FP: 2153.0000  FN: 524.0000
+Epoch 15/23
+----------
+train Loss: 0.4620 Acc: 0.7916 Err: 0.2084
+TP: 5756.0000  TN: 4175.0000  FP: 2089.0000  FN: 525.0000
+Epoch 16/23
+----------
+train Loss: 0.4565 Acc: 0.7942 Err: 0.2058
+TP: 5686.0000  TN: 4277.0000  FP: 2075.0000  FN: 507.0000
+Epoch 17/23
+----------
+train Loss: 0.4553 Acc: 0.7922 Err: 0.2078
+TP: 5729.0000  TN: 4209.0000  FP: 2085.0000  FN: 522.0000
+Epoch 18/23
+----------
+train Loss: 0.4591 Acc: 0.7959 Err: 0.2041
+TP: 5745.0000  TN: 4239.0000  FP: 2030.0000  FN: 531.0000
+Epoch 19/23
+----------
+train Loss: 0.4526 Acc: 0.7964 Err: 0.2036
+TP: 5749.0000  TN: 4242.0000  FP: 2036.0000  FN: 518.0000
+Epoch 20/23
+----------
+train Loss: 0.4539 Acc: 0.7982 Err: 0.2018
+TP: 5804.0000  TN: 4209.0000  FP: 1999.0000  FN: 533.0000
+Epoch 21/23
+----------
+train Loss: 0.4523 Acc: 0.7956 Err: 0.2044
+TP: 5825.0000  TN: 4156.0000  FP: 2063.0000  FN: 501.0000
+Epoch 22/23
+----------
+train Loss: 0.4427 Acc: 0.8045 Err: 0.1955
+TP: 5828.0000  TN: 4265.0000  FP: 1966.0000  FN: 486.0000
+Epoch 23/23
+----------
+train Loss: 0.4539 Acc: 0.7963 Err: 0.2037
+TP: 5734.0000  TN: 4255.0000  FP: 2021.0000  FN: 535.0000
+-----------------------------------------------------------
+Training complete in 400m 0s
+-----------------------------------------------------------
+Mon May  6 03:54:39 EDT 2019

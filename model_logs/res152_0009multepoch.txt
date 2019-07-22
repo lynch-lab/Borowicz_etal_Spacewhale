@@ -1,0 +1,4 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon Jul  1 15:49:18 EDT 2019
+Mon Jul  1 15:49:21 EDT 2019
+slurmstepd: error: *** JOB 8842 ON sn-nvda6 CANCELLED AT 2019-07-01T15:49:26 ***

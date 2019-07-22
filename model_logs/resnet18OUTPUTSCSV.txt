@@ -1,0 +1,10 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Thu May 16 23:29:21 EDT 2019
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1287.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 103.0
+prec: 1.000000, recall: 0.925899
+Thu May 16 23:31:13 EDT 2019

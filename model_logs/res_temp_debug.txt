@@ -1,0 +1,18 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon Jul  1 15:37:57 EDT 2019
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafde9b128>
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1127.0
+Correctly Identified as Whales: 17.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 263.0
+prec: 0.999113, recall: 0.810791
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafdea3240>
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+slurmstepd: error: *** JOB 8841 ON sn-nvda6 CANCELLED AT 2019-07-01T15:38:26 ***

@@ -1,0 +1,974 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Sat Jul  6 17:48:32 EDT 2019
+Now testing Resnet152, lr=0.001
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5240>
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1282.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 106.0
+prec: 0.998442, recall: 0.923631
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182550>
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1274.0
+Correctly Identified as Whales: 29.0
+Misidentified as Water: 3.0
+Misidentified as Whales: 114.0
+prec: 0.997651, recall: 0.917867
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182588>
+epoch_2.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1340.0
+Correctly Identified as Whales: 28.0
+Misidentified as Water: 4.0
+Misidentified as Whales: 48.0
+prec: 0.997024, recall: 0.965418
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1c91d0>
+epoch_3.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1251.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 137.0
+prec: 0.999201, recall: 0.901297
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a9048>
+epoch_4.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 789.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 599.0
+prec: 0.997472, recall: 0.568444
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_5.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1262.0
+Correctly Identified as Whales: 29.0
+Misidentified as Water: 3.0
+Misidentified as Whales: 126.0
+prec: 0.997628, recall: 0.909222
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_6.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1244.0
+Correctly Identified as Whales: 29.0
+Misidentified as Water: 3.0
+Misidentified as Whales: 144.0
+prec: 0.997594, recall: 0.896254
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_7.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1203.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 185.0
+prec: 0.999169, recall: 0.866715
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_8.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1270.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 118.0
+prec: 1.000000, recall: 0.914986
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_9.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1223.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 165.0
+prec: 0.998367, recall: 0.881124
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_10.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1310.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 78.0
+prec: 0.998476, recall: 0.943804
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a41d0>
+epoch_11.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1231.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 157.0
+prec: 0.999188, recall: 0.886888
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_12.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1271.0
+Correctly Identified as Whales: 28.0
+Misidentified as Water: 4.0
+Misidentified as Whales: 117.0
+prec: 0.996863, recall: 0.915706
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182588>
+epoch_13.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1262.0
+Correctly Identified as Whales: 29.0
+Misidentified as Water: 3.0
+Misidentified as Whales: 126.0
+prec: 0.997628, recall: 0.909222
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaaf7ab37f0>
+epoch_14.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1262.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 126.0
+prec: 0.999208, recall: 0.909222
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182588>
+epoch_15.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1238.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 150.0
+prec: 0.999193, recall: 0.891931
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a91d0>
+epoch_16.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1260.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 128.0
+prec: 0.999207, recall: 0.907781
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5198>
+epoch_17.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1263.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 125.0
+prec: 0.998419, recall: 0.909942
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5198>
+epoch_18.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1253.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 135.0
+prec: 0.999203, recall: 0.902738
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1835c0>
+epoch_19.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1267.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 121.0
+prec: 1.000000, recall: 0.912824
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a50f0>
+epoch_20.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1235.0
+Correctly Identified as Whales: 31.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 153.0
+prec: 0.999191, recall: 0.889769
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a4198>
+epoch_21.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1214.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 174.0
+prec: 1.000000, recall: 0.874640
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182588>
+epoch_22.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1273.0
+Correctly Identified as Whales: 30.0
+Misidentified as Water: 2.0
+Misidentified as Whales: 115.0
+prec: 0.998431, recall: 0.917147
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a9160>
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1253.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 135.0
+prec: 1.000000, recall: 0.902738
+Testing finished at:
+Sat Jul  6 18:06:47 EDT 2019
+Now testing Resnet152, lr=0.01
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1825c0>
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1388.0
+Correctly Identified as Whales: 3.0
+Misidentified as Water: 29.0
+Misidentified as Whales: 0.0
+prec: 0.979534, recall: 1.000000
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5048>
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1305.0
+Correctly Identified as Whales: 16.0
+Misidentified as Water: 16.0
+Misidentified as Whales: 83.0
+prec: 0.987888, recall: 0.940202
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafceba748>
+epoch_2.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 374.0
+Correctly Identified as Whales: 19.0
+Misidentified as Water: 13.0
+Misidentified as Whales: 1014.0
+prec: 0.966408, recall: 0.269452
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5080>
+epoch_3.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1206.0
+Correctly Identified as Whales: 12.0
+Misidentified as Water: 20.0
+Misidentified as Whales: 182.0
+prec: 0.983687, recall: 0.868876
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_4.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 527.0
+Correctly Identified as Whales: 15.0
+Misidentified as Water: 17.0
+Misidentified as Whales: 861.0
+prec: 0.968750, recall: 0.379683
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a41d0>
+epoch_5.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1356.0
+Correctly Identified as Whales: 6.0
+Misidentified as Water: 26.0
+Misidentified as Whales: 32.0
+prec: 0.981187, recall: 0.976945
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_6.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1380.0
+Correctly Identified as Whales: 5.0
+Misidentified as Water: 27.0
+Misidentified as Whales: 8.0
+prec: 0.980810, recall: 0.994236
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_7.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1381.0
+Correctly Identified as Whales: 10.0
+Misidentified as Water: 22.0
+Misidentified as Whales: 7.0
+prec: 0.984319, recall: 0.994957
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182518>
+epoch_8.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1335.0
+Correctly Identified as Whales: 21.0
+Misidentified as Water: 11.0
+Misidentified as Whales: 53.0
+prec: 0.991828, recall: 0.961816
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5278>
+epoch_9.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1342.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 48.0
+prec: 0.994811, recall: 0.965468
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_10.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1387.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 18.0
+Misidentified as Whales: 3.0
+prec: 0.987189, recall: 0.997842
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a9048>
+epoch_11.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1020.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 370.0
+prec: 0.993184, recall: 0.733813
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a4160>
+epoch_12.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1034.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 356.0
+prec: 0.992322, recall: 0.743885
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a9198>
+epoch_13.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 995.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 395.0
+prec: 0.992024, recall: 0.715827
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5198>
+epoch_14.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1039.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 351.0
+prec: 0.992359, recall: 0.747482
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe182518>
+epoch_15.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1012.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 378.0
+prec: 0.993131, recall: 0.728058
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_16.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1369.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 21.0
+prec: 0.994190, recall: 0.984892
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5160>
+epoch_17.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1003.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 387.0
+prec: 0.994054, recall: 0.721583
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a51d0>
+epoch_18.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1095.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 295.0
+prec: 0.993648, recall: 0.787770
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe181588>
+epoch_19.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1027.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 363.0
+prec: 0.992271, recall: 0.738849
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5128>
+epoch_20.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 982.0
+Correctly Identified as Whales: 28.0
+Misidentified as Water: 4.0
+Misidentified as Whales: 408.0
+prec: 0.995943, recall: 0.706475
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a4128>
+epoch_21.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1381.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 9.0
+prec: 0.992811, recall: 0.993525
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a9240>
+epoch_22.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1026.0
+Correctly Identified as Whales: 25.0
+Misidentified as Water: 7.0
+Misidentified as Whales: 364.0
+prec: 0.993224, recall: 0.738129
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafe1a5048>
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 357.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 1033.0
+prec: 0.983471, recall: 0.256835
+testing finished at:
+Sat Jul  6 18:23:55 EDT 2019
+Now testing Resnet152, lr=0.1
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_0.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_1.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_2.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_3.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_4.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_5.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_6.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_7.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_8.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_9.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_10.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_11.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_12.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_13.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_14.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_15.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_16.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_17.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_18.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_19.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_20.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_21.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_22.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_1/epoch_23.pth'
+testing done at:
+Sat Jul  6 18:26:14 EDT 2019
+Now testing resnet152, lr=0.2
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_0.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_1.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_2.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_3.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_4.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_5.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_6.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_7.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_8.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_9.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_10.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_11.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_12.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_13.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_14.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_15.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_16.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_17.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_18.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_19.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_20.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_21.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_22.pth'
+../../whale/new_pansharp/test
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+Traceback (most recent call last):
+  File "test_script.py", line 94, in <module>
+    model_ft.load_state_dict(torch.load(trained_model))
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/serialization.py", line 356, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './trained_model/resnet152_full32_2/epoch_23.pth'
+testing done at:
+Sat Jul  6 18:28:28 EDT 2019

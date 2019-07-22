@@ -1,0 +1,174 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1390.0
+Correctly Identified as Whales: 1.0
+Misidentified as Water: 31.0
+Misidentified as Whales: 0.0
+prec: 0.978184, recall: 1.000000
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 0.0
+Correctly Identified as Whales: 32.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1390.0
+Traceback (most recent call last):
+  File "test_script.py", line 110, in <module>
+    s.test_dir(device,model_ft,dataloaders)
+  File "/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/m_util.py", line 217, in test_dir
+    prec = float(tp)/float(tp+fp)
+ZeroDivisionError: float division by zero
+epoch_2.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 902.0
+Correctly Identified as Whales: 11.0
+Misidentified as Water: 21.0
+Misidentified as Whales: 488.0
+prec: 0.977248, recall: 0.648921
+epoch_3.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1317.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 18.0
+Misidentified as Whales: 73.0
+prec: 0.986517, recall: 0.947482
+epoch_4.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1199.0
+Correctly Identified as Whales: 16.0
+Misidentified as Water: 16.0
+Misidentified as Whales: 191.0
+prec: 0.986831, recall: 0.862590
+epoch_5.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1199.0
+Correctly Identified as Whales: 16.0
+Misidentified as Water: 16.0
+Misidentified as Whales: 191.0
+prec: 0.986831, recall: 0.862590
+epoch_6.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1274.0
+Correctly Identified as Whales: 15.0
+Misidentified as Water: 17.0
+Misidentified as Whales: 116.0
+prec: 0.986832, recall: 0.916547
+epoch_7.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 718.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 672.0
+prec: 0.986264, recall: 0.516547
+epoch_8.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 717.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 673.0
+prec: 0.987603, recall: 0.515827
+epoch_9.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1173.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 217.0
+prec: 0.992386, recall: 0.843885
+epoch_10.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1260.0
+Correctly Identified as Whales: 18.0
+Misidentified as Water: 14.0
+Misidentified as Whales: 130.0
+prec: 0.989011, recall: 0.906475
+epoch_11.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1306.0
+Correctly Identified as Whales: 20.0
+Misidentified as Water: 12.0
+Misidentified as Whales: 84.0
+prec: 0.990895, recall: 0.939568
+epoch_12.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1198.0
+Correctly Identified as Whales: 21.0
+Misidentified as Water: 11.0
+Misidentified as Whales: 192.0
+prec: 0.990902, recall: 0.861871
+epoch_13.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1129.0
+Correctly Identified as Whales: 26.0
+Misidentified as Water: 6.0
+Misidentified as Whales: 261.0
+prec: 0.994714, recall: 0.812230
+epoch_14.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 718.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 672.0
+prec: 0.987620, recall: 0.516547
+epoch_15.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1199.0
+Correctly Identified as Whales: 21.0
+Misidentified as Water: 11.0
+Misidentified as Whales: 191.0
+prec: 0.990909, recall: 0.862590
+epoch_16.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1306.0
+Correctly Identified as Whales: 21.0
+Misidentified as Water: 11.0
+Misidentified as Whales: 84.0
+prec: 0.991648, recall: 0.939568
+epoch_17.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1198.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 192.0
+prec: 0.992543, recall: 0.861871
+epoch_18.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 847.0
+Correctly Identified as Whales: 22.0
+Misidentified as Water: 10.0
+Misidentified as Whales: 543.0
+prec: 0.988331, recall: 0.609353
+epoch_19.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1307.0
+Correctly Identified as Whales: 21.0
+Misidentified as Water: 11.0
+Misidentified as Whales: 83.0
+prec: 0.991654, recall: 0.940288
+epoch_20.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 786.0
+Correctly Identified as Whales: 24.0
+Misidentified as Water: 8.0
+Misidentified as Whales: 604.0
+prec: 0.989924, recall: 0.565468
+epoch_21.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 718.0
+Correctly Identified as Whales: 23.0
+Misidentified as Water: 9.0
+Misidentified as Whales: 672.0
+prec: 0.987620, recall: 0.516547
+epoch_22.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1307.0
+Correctly Identified as Whales: 20.0
+Misidentified as Water: 12.0
+Misidentified as Whales: 83.0
+prec: 0.990902, recall: 0.940288
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 1293.0
+Correctly Identified as Whales: 20.0
+Misidentified as Water: 12.0
+Misidentified as Whales: 97.0
+prec: 0.990805, recall: 0.930216

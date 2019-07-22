@@ -1,0 +1,32 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon May 20 20:26:53 EDT 2019
+Mon May 20 20:26:58 EDT 2019
+Now testing Resnext lr=0.001
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+1
+2
+3
+Traceback (most recent call last):
+  File "test_script.py", line 117, in <module>
+    s.test_dir(device,model_ft,dataloaders)
+  File "/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/m_util2.py", line 198, in test_dir
+    outputs = model_ft(im)
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/nn/modules/container.py", line 91, in forward
+    input = module(input)
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 477, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/gpfs/projects/LynchGroup/spacewhale/space_env/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 301, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: sizes must be non-negative
+Mon May 20 20:27:20 EDT 2019
+Now testing Resnext lr=0.01
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+1
+2
+slurmstepd: error: *** JOB 5918 ON sn-nvda5 CANCELLED AT 2019-05-20T20:32:33 ***

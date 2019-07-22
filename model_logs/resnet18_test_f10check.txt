@@ -1,0 +1,243 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Thu Jun 27 12:48:44 EDT 2019
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7080>
+epoch_0.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 88.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1146.0
+prec: 1.000000, recall: 0.071313
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7198>
+epoch_1.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 118.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1116.0
+prec: 1.000000, recall: 0.095624
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e8048>
+epoch_2.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 94.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1140.0
+prec: 1.000000, recall: 0.076175
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e8048>
+epoch_3.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 102.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1132.0
+prec: 1.000000, recall: 0.082658
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6080>
+epoch_4.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 86.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1148.0
+prec: 1.000000, recall: 0.069692
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7048>
+epoch_5.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 76.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1158.0
+prec: 1.000000, recall: 0.061588
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaaf6b18d68>
+epoch_6.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 86.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1148.0
+prec: 1.000000, recall: 0.069692
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7080>
+epoch_7.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 96.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1138.0
+prec: 1.000000, recall: 0.077796
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6048>
+epoch_8.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 97.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1137.0
+prec: 1.000000, recall: 0.078606
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6048>
+epoch_9.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 107.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1127.0
+prec: 1.000000, recall: 0.086710
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e70b8>
+epoch_10.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 98.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1136.0
+prec: 1.000000, recall: 0.079417
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e71d0>
+epoch_11.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 110.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1124.0
+prec: 1.000000, recall: 0.089141
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7080>
+epoch_12.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 98.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1136.0
+prec: 1.000000, recall: 0.079417
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e70b8>
+epoch_13.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 112.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1122.0
+prec: 1.000000, recall: 0.090762
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e8080>
+epoch_14.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 116.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1118.0
+prec: 1.000000, recall: 0.094003
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e0048>
+epoch_15.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 102.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1132.0
+prec: 1.000000, recall: 0.082658
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6048>
+epoch_16.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 121.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1113.0
+prec: 1.000000, recall: 0.098055
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e70b8>
+epoch_17.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 126.0
+Correctly Identified as Whales: 13.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 1108.0
+prec: 0.992126, recall: 0.102107
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6198>
+epoch_18.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 121.0
+Correctly Identified as Whales: 13.0
+Misidentified as Water: 1.0
+Misidentified as Whales: 1113.0
+prec: 0.991803, recall: 0.098055
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7080>
+epoch_19.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 140.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1094.0
+prec: 1.000000, recall: 0.113452
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e7080>
+epoch_20.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 111.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1123.0
+prec: 1.000000, recall: 0.089951
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6048>
+epoch_21.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 104.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1130.0
+prec: 1.000000, recall: 0.084279
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e6080>
+epoch_22.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 118.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1116.0
+prec: 1.000000, recall: 0.095624
+Data loaded into gpu
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+<torch.utils.data.dataloader.DataLoader object at 0x2aaafd0e70b8>
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+Correctly Identified as Water: 106.0
+Correctly Identified as Whales: 14.0
+Misidentified as Water: 0.0
+Misidentified as Whales: 1128.0
+prec: 1.000000, recall: 0.085900
+Thu Jun 27 12:52:48 EDT 2019

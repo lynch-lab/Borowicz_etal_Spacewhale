@@ -1,0 +1,10 @@
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale/shell_scripts
+Mon May 20 20:32:36 EDT 2019
+Mon May 20 20:32:39 EDT 2019
+Now testing Resnext lr=0.1
+/gpfs/projects/LynchGroup/spacewhale/git_spacewhale/spacewhale
+epoch_23.pth
+{0: 'water', 1: 'whale'}
+1
+2
+slurmstepd: error: *** JOB 5920 ON sn-nvda5 CANCELLED AT 2019-05-20T20:36:31 ***
