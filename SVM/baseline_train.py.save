@@ -4,12 +4,7 @@
 ### Date: July 2019
 ### Data and code available at github.com/aborowicz/spacewhale
 ### Usage examples:
-###
-### python baseline_train.py --train_dir images/train --test_dir images/test --model 'SVM' --param 1
-###
-### Your model choices are SVM or Ridge
-### The '--param' sets your Alpha (for Ridge) or C (for C-SVC)
-### Will output true/false pos and neg, precision, recall, and F1 score for your model
+### 
 ###
 #####################################################################################################
 ### Library Imports
