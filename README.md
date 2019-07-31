@@ -1,7 +1,7 @@
 # SPACEWHALE
 ## Aerial-trained deep learning networks for surveying cetaceans from satellite imagery
 ### In review - PLoS ONE
-[![DOI](https://zenodo.org/badge/192443561.svg)](https://zenodo.org/badge/latestdoi/192443561)
+[![DOI](https://zenodo.org/badge/188260533.svg)](https://zenodo.org/badge/latestdoi/188260533)
 
 
 This repo houses the code and resources for this paper:
