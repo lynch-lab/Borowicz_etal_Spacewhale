@@ -7,10 +7,12 @@ This repo houses the code and resources for this paper:
 Borowicz A, Le H, Humphries G, Nehls G, Höschle C, Kosarev V, Lynch H. Aerial-trained deep learning networks for surveying cetaceans from satellite imagery. *In Review.* 
 
 SPACEWHALE is a workflow for using high-resolution satellite imagery and computer vision techniques to locate whales. It's a collaboration between a team at Stony Brook University (@aborowicz, @lmhieu612, and hlynch from @lynch-lab) and a team from BioConsult and HiDef Aerial Surveying (@blackbawks, G. Nehls, C. Höschle, V. Kosarev). It employs pytorch as a framework to train models how to identify whales in imagery. They train on aerial imagery and then can be used on very high-resolution satellite imagery. We used WorldView-3 and -4 imagery (31cm/px) but other sensors could be used. We provide proprietary aerial imagery (of minke whales) from HiDef down-sampled to 31cm/px and other resolutions could be made available. Similarly, aerial imagery from other providers could be used in place of what is here. 
-The paper outlines a method for identifying whale in satellite imagery. It is primarily a proof-of-concept and the code contained here is static - updates will be found at github.com/aborowicz/spacewhale
+The paper outlines a method for identifying whales in satellite imagery. It is primarily a proof-of-concept and the code contained here is the release associated with the paper. Further updates can be found at github.com/aborowicz/spacewhale.
 
 We use aerial imagery of whales (and water) downsampled to satellite resolution to train several different convolutional neural nets: ResNet-18, -34, -152, and DenseNet. 
 We found whales in satellite imagery using google earth and acquired imagery of these regions and dates from the Digital Globe Foundation. Then we validated our trained model with these images.
+
+In the interest of full transparency in science, we also include all elements of the manuscript including reviewer comments and replies.
 
 ## Getting Started
 
@@ -23,7 +25,7 @@ On a GPU, you can expect training to take 1-7 hours with our training set, depen
 '''gen_training_patches.py''' takes in images and chops them into 32px x 32px tiles. It takes as arguments the directory of images to tile ```--root```, the step (how many pixels before starting a new tile) ```--step```, the square tile size in pixels ```---size```, and the output directory ```--output```. For example 
 ```python gen_training_patches.py --root './water_training' --step 16 --size 32 --output './water_tiles'``` 
 
-```m_util.py``` houses functions etc. that are called by other scripts
+```m_util2.py``` houses functions etc. that are called by other scripts
 
 ```training_tester_weighted.py``` trains a model using a set of aerial images that you define. Example:
 ``` python training_tester_weighted.py --name model_1 --data_dir './the_data' --verbose True --epochs 24```
@@ -45,7 +47,7 @@ The ```Revision_PLOS``` dir houses the working draft of the revised manuscript f
 
 The ```Revision_PLOS``` dir houses the working draft of the revised manuscript for this project.
 
-```SPACEWHALE_confusionMatrix.R``` is an R script for building a confusion matrix in ggplot2.
+
 
 ## Pre-trained Models Used for Training:
 
