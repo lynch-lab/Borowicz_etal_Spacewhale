@@ -1,12 +1,12 @@
 # SPACEWHALE
 ## Aerial-trained deep learning networks for surveying cetaceans from satellite imagery
-### In review - PLoS ONE
+### PLoS ONE
 [![DOI](https://zenodo.org/badge/188260533.svg)](https://zenodo.org/badge/latestdoi/188260533)
 
 
 This repo houses the code and resources for this paper:
 
-Borowicz A, Le H, Humphries G, Nehls G, Höschle C, Kosarev V, Lynch H. Aerial-trained deep learning networks for surveying cetaceans from satellite imagery. *In Review.* 
+Borowicz A, Le H, Humphries G, Nehls G, Höschle C, Kosarev V, et al. (2019) Aerial-trained deep learning networks for surveying cetaceans from satellite imagery. PLoS ONE 14(10): e0212532. 
 
 SPACEWHALE is a workflow for using high-resolution satellite imagery and computer vision techniques to locate whales. It's a collaboration between a team at Stony Brook University (@aborowicz, @lmhieu612, and hlynch from @lynch-lab) and a team from BioConsult and HiDef Aerial Surveying (@blackbawks, G. Nehls, C. Höschle, V. Kosarev). It employs pytorch as a framework to train models how to identify whales in imagery. They train on aerial imagery and then can be used on very high-resolution satellite imagery. We used WorldView-3 and -4 imagery (31cm/px) but other sensors could be used. We provide proprietary aerial imagery (of minke whales) from HiDef down-sampled to 31cm/px and other resolutions could be made available. Similarly, aerial imagery from other providers could be used in place of what is here. 
 The paper outlines a method for identifying whales in satellite imagery. It is primarily a proof-of-concept and the code contained here is the release associated with the paper. Further updates can be found at github.com/aborowicz/spacewhale.
